@@ -12,7 +12,7 @@ Estudante de Ciências Econômicas (Unisinos, formatura prevista dez/2027), em t
 
 | Projeto | Descrição | Ferramentas |
 |---|---|---|
-| [Previsão de produção vitivinícola (SEFAZ-RS)](./projeto-svr-vitivinicultura) | Modelo SVR para prever impacto do acordo Mercosul-UE na vitivinicultura do RS | Python, scikit-learn |
+| [Análise do setor vitivinícola do RS (SEFAZ-RS)](./projeto-sefaz-rs-vitivinicultura) | Análise setorial completa (produção, exportação, ICMS) com modelo SVR simulando impacto do Acordo Mercosul-UE | Python, scikit-learn |
 | [Modelos de Machine Learning](./projeto-modelos-ml) | Clustering, análise fatorial, árvore de decisão e SVM aplicados a dados econômicos | Python, scikit-learn |
 | [Análise fatorial — qualidade do vinho](./projeto-analise-fatorial) | Análise fatorial exploratória em dataset de vinhos (UCI) | Python, factor_analyzer |
 | [Carteira de investimentos](./projeto-carteira-investimentos) | Montagem e acompanhamento de carteira conservadora, com cálculo de retorno, risco e correlação | Excel, Python |
