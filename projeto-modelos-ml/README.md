@@ -27,12 +27,12 @@ O número de clusters variou significativamente entre os anos — de 7 (2014, 20
 
 **Base de dados:** Student Performance (UCI Machine Learning Repository) — Cortez & Silva (2008)
 
-**Objetivo:** Prever a nota final (G3, escala 0-20) de estudantes do ensino secundário em Portugal a partir de características socioeconômicas e comportamentais — sem usar as notas parciais (G1, G2) como preditoras.
+**Objetivo:** Prever a nota final (G3, escala 0-20) de estudantes do ensino secundário em Portugal a partir de características socioeconômicas e comportamentais, sem usar as notas parciais (G1, G2) como preditoras.
 
-**Decisão metodológica central:** G1 e G2 têm correlação acima de 0.8 com G3. Incluí-las tornaria a previsão trivial e esconderia os fatores reais por trás do desempenho — por isso foram **excluídas propositalmente** das features, mantendo o modelo honesto sobre o que de fato explica a nota.
+**Decisão metodológica central:** G1 e G2 têm correlação acima de 0.8 com G3. Incluí-las tornaria a previsão trivial e esconderia os fatores reais por trás do desempenho, por isso foram **excluídas propositalmente** das features, mantendo o modelo honesto sobre o que de fato explica a nota.
 
 **Metodologia**
-- Análise exploratória identificando variáveis mais associadas ao desempenho (aspiração de cursar ensino superior, reprovações anteriores)
+- Análise exploratória identificando variáveis mais associadas ao desempenho (interesse de cursar ensino superior, reprovações anteriores)
 - Label Encoding para variáveis categóricas
 - Padronização com fit apenas no conjunto de treino (evitando data leakage)
 - Comparação entre SVR com 3 kernels (linear, RBF, polinomial) e Regressão Linear (OLS)
