@@ -1,7 +1,7 @@
 # Automação de Controle Financeiro (Excel)
 
 ## Contexto
-Planilha de controle financeiro pessoal com estrutura multi-abas, cobrindo três frentes: acompanhamento mensal de renda e quitação de dívidas, registro diário de gastos por categoria, e um painel consolidado que calcula quanto sobra para investir. Dados fictícios — modelo construído a partir de um caso real de organização financeira pessoal, anonimizado para portfólio.
+Planilha de controle financeiro pessoal com estrutura multi-abas, cobrindo três frentes: acompanhamento mensal de renda e quitação de dívidas, registro diário de gastos por categoria, e um painel consolidado que calcula quanto sobra para investir. Dados fictícios, modelo construído a partir de um caso real de organização financeira pessoal, anonimizado para portfólio.
 
 ## Metodologia
 - **10 abas mensais (Renda Julho → Renda Abril)**: acompanham renda, dívidas ativas e percentual da renda comprometida mês a mês, com o saldo devedor de um mês puxando automaticamente o saldo do mês anterior (fórmula encadeada entre abas)
@@ -21,4 +21,4 @@ Excel (fórmulas SOMASE/SUMIF, SE, referências entre abas, validação de dados
 `controle-financeiro-generico.xlsx` — modelo com dados fictícios de renda, dívidas e gastos diários
 
 ## Nota
-Este é um modelo genérico construído a partir de um projeto real de controle financeiro pessoal — nomes, valores e descrições foram substituídos por dados fictícios para preservar a privacidade da situação original.
+Este é um modelo genérico construído a partir de um projeto real de controle financeiro pessoal, tendo nomes, valores e descrições substituídos por dados fictícios para preservar a privacidade da situação original.
