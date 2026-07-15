@@ -1,7 +1,7 @@
 # Análise do Setor Vitivinícola do RS — SEFAZ-RS
 
 ## Contexto
-Projeto acadêmico apresentado à Secretaria da Fazenda do Rio Grande do Sul (SEFAZ-RS) — Unisinos, Análise Econômica Setorial, 2025.
+Projeto acadêmico apresentado à Secretaria da Fazenda do Rio Grande do Sul (SEFAZ-RS) — Unisinos, Análise Econômica Setorial, 2026.
 
 **Equipe:** Enzo Degrazia, Leonardo Rodrigues, Marcelo Dimas, Valentina Rodrigues e Volmir Júnior.
 
