@@ -5,10 +5,10 @@ Projeto acadêmico apresentado à Secretaria da Fazenda do Rio Grande do Sul (SE
 
 **Equipe:** Enzo Degrazia, Leonardo Rodrigues, Marcelo Dimas, Valentina Rodrigues e Volmir Júnior.
 
-Análise completa da cadeia produtiva do setor vitivinícola do Rio Grande do Sul, estruturada em 6 eixos: matéria-prima, indústria, exportação, importação, impactos exógenos e arrecadação — com um modelo preditivo (SVR) simulando o impacto do Acordo Mercosul-UE sobre a competitividade do setor.
+Análise completa da cadeia produtiva do setor vitivinícola do Rio Grande do Sul, estruturada em 6 eixos: matéria-prima, indústria, exportação, importação, impactos exógenos e arrecadação, com um modelo preditivo (SVR) simulando o impacto do Acordo Mercosul-UE sobre a competitividade do setor.
 
 ## Fontes de dados
-IBGE, Comex Stat (MDIC), Receita Dados (SEFAZ-RS), Banco Central do Brasil (SGS — câmbio e IPCA), faturamento interno de empresa parceira do setor.
+IBGE, Comex Stat (MDIC), Receita Dados (SEFAZ-RS) e SGS (Banco Central do Brasil).
 
 ## Estrutura da análise
 
@@ -30,7 +30,7 @@ Modelo SVR aplicado a diferentes NCMs do setor para simular o impacto do Acordo 
 | 2204.29.10 | Vinhos a granel > 10L | -8,01% | Sensível à demanda industrial |
 | 2204.10.10 | Espumante moscatel | -9,87% | Alta vulnerabilidade interna |
 
-A simulação testou o acirramento da concorrência de vinhos finos europeus com a abertura do Acordo Mercosul-UE. O modelo identificou que os espumantes finos (NCM 2204.10.90) operam de forma **anticíclica**: diante de retrações regionais, a indústria escoa com sucesso para outros estados e canais externos, elevando a receita.
+A simulação testou o acirramento da concorrência de vinhos finos europeus com a abertura do Acordo Mercosul-UE. O modelo identificou que os espumantes finos (NCM 2204.10.90) operam de forma **anticíclica**: diante da queda nas vendas em determinadas regiões, a indústria consegue direcionar a produção para outros estados e mercados externos, aumentando a receita.
 
 **05 · Impactos exógenos** — Enchentes de 2024 (maior desastre climático do RS, safra caiu 24%), El Niño e míldio (aumento de chuvas favorece a principal doença da videira), e riscos adicionais como herbicida por deriva, urbanização e carga tributária.
 
